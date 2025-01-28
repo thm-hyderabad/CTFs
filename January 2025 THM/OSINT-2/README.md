@@ -26,4 +26,4 @@ The flag is in the format: THM10{loactionname}
 4. **Construct the Flag**:
    Using the provided flag format, the flag becomes: THM10{Chennai}
 
-![alt text](http://url/to/image.png)
+![alt text](https://github.com/thm-hyderabad/CTF-s/blob/main/January%202025%20THM/OSINT-2/image.png)
