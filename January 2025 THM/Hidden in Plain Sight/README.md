@@ -37,3 +37,4 @@ These characters represent instructions, making it an intriguing tool for encodi
 4. **Extract the Flag**:
    After decoding, the flag appears in the format: THM10{........}
 
+![alt text](https://github.com/thm-hyderabad/CTF-s/blob/main/January%202025%20THM/Hidden%20in%20Plain%20Sight/image.png)
