@@ -26,4 +26,4 @@ The flag is in the format: THM10{loactionname}
 4. **Construct the Flag**:
    Using the provided flag format, the flag becomes: THM10{Chennai}
 
-(`image.png`)
+![alt text](http://url/to/image.png)
