@@ -27,6 +27,7 @@ Noise: Ignore icmp (ping) packets if you see any of those packets.
      Search for HTTP GET requests in wireshark 
      http.request.method == "GET"  
      Locate the request to http://example.com/?flag=THM10{Pcap.
+   
 Flag Part 1: THM10{Pcap
 
 
@@ -34,15 +35,17 @@ Flag Part 1: THM10{Pcap
      Filter DNS queries in wireshark
      dns.qry.name contains "flag"  
      Identify the DNS query with _extraction_.domain.local .
+     
 Flag Part 2: _extraction_
 
 
      Part 3: FTP File Transfer
      Filter FTP traffic after dealing with http and dns traffic in wireshark
      Follow the FTP data stream to find an uploaded file (flag.txt) containing 'master}'.
+     
 Flag Part 3: master}
 
-3. **Reconstruct the Full Flag**:
+4. **Reconstruct the Full Flag**:
    Combine the parts in order to get desired flag (i.e THM10{Pcap_extraction_master}).
 
 
