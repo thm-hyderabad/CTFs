@@ -22,6 +22,7 @@ We are provided with a `.jpeg` file which contains hidden file.
 
 
 2. **Decrypt RSA Using dcode.fr**:
+
    2.1. Go to the website and select "RSA Cipher".
    -->  Under "Public Key value (Integer)", paste 'n' value from rsa_challenge.txt .
    -->  Under "Public Key E", enter 65537.
@@ -29,5 +30,5 @@ We are provided with a `.jpeg` file which contains hidden file.
 
    2.2. This website will automatically factorize the 'n' value into primes which further used for decryption.
 
-3. **Extract the Flag**:
+4. **Extract the Flag**:
    After decoding, the flag appears in the format: THM10{........}
