@@ -17,6 +17,7 @@ We are provided with a Encrypted volume file and also an `.img` file.
    Comment: THMCTF10
 
 2. **Mount the VeraCrypt Volume**:
+   
    Install VeraCrypt from VeraCrypt Official Site--> https://veracrypt.fr/en/Home.html
    Open VeraCrypt and click Select File.
    Choose the .tc file in folder (e.g., encrypted_volume.tc).
@@ -24,7 +25,7 @@ We are provided with a Encrypted volume file and also an `.img` file.
    Click Mount, enter the password (THMCTF10), and click OK. 
    The mounted drive (e.g., Z:) will appear in your file explorer.
 
-3. **Retrieve the Flag**:
+4. **Retrieve the Flag**:
 
    Navigate to the mounted VeraCrypt volume and open the flag.txt file
    You can see the flag appears to be: THM10{ENCRYPTED_VOLUME}
